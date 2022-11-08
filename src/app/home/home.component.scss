@@ -48,7 +48,7 @@
 }
 .iconLogo {
   height: 120px;
-  width: 120px;
+  width: 150px;
   // padding-left:0px;
 }
 .figmaIcon {
@@ -66,18 +66,25 @@
   padding-left: 70px;
 }
 .why {
-  display: flex;
+  //display: flex;
+  text-align: center;
   justify-content: center;
-
+  font-weight: 800;
   font-size: 35px;
-  padding-top: 80px;
+  padding-top: 90px;
   padding-bottom: 40px;
+  line-height: 40px;
+  padding-left: 10px;
 }
 .ambitious {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 20px;
+}
+.we {
+  text-align: right;
+  font-size: 16px;
 }
 .mainDiv {
   color: white;
@@ -114,36 +121,106 @@
   padding-left: 70px;
 }
 .saveLine {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 40px;
 }
+.saveLines {
+  font-size: 35px;
+  line-height: 40px;
+  padding-top: 10px;
+}
 .fundLine {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 40px;
 }
 .trasave {
+  font-size: 16px;
+}
+.trasaveWe {
+  font-size: 16px;
+  padding-top: 20px;
+}
+.trasaveText {
   padding-top: 20px;
 }
 .line {
   border-color: #49b649;
   border-radius: 1px;
-  width: 80px;
-  margin-top: 150px;
-  height: 5px;
+  width: 100px;
+  margin-top: 100px;
+  height: 4px;
   background-color: #49b649;
   opacity: 1;
 }
 .plash {
-  height: 350px;
-  width: 390px;
+  height: 370px;
+  width: 100%;
   margin-top: 100px;
+  object-fit: cover;
 }
 .plashline {
   border-color: #49b649;
   border-radius: 1px;
-  width: 80px;
+  width: 100px;
   margin-top: 220px;
-  height: 5px;
+  height: 4px;
   background-color: #49b649;
   opacity: 1;
+}
+.mainPart {
+  padding-top: 100px;
+}
+
+.secondPart {
+  padding-top: 20px;
+}
+.manImage {
+  height: 420px;
+  width: 350px;
+}
+.man {
+  display: flex;
+  justify-content: center;
+}
+.manLine {
+  border-color: #49b649;
+  border-radius: 1px;
+  width: 100px;
+  margin-top: 150px;
+  height: 4px;
+  background-color: #49b649;
+  opacity: 1;
+}
+.manLineText {
+  display: flex;
+  justify-content: right;
+  padding-top: 30px;
+}
+.manLetter {
+  padding-right: 70px;
+}
+.find {
+  font-size: 35px;
+  line-height: 40px;
+  display: flex;
+  justify-content: right;
+  // padding-left: 40px;
+}
+.findOf {
+  padding-bottom: 20px;
+}
+.textArea {
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.there {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 50px;
+}
+.as {
+  padding-top: 20px;
+}
+.theres {
+  padding-top: 130px;
 }
